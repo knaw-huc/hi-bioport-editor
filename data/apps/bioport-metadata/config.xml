@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<config>
+  <app>
+    <name>bioport-metadata</name>
+    <title>Bioport-metadata Editor</title>
+    <def_prof>clarin.eu:cr1:p_1772521921697</def_prof>
+    <cmdi_version>1.2</cmdi_version>
+    <access>
+      <read>any</read>
+      <write>any</write>
+    </access>
+    <prof>
+      <bioport-metadata>
+        <prof>clarin.eu:cr1:p_1772521921697</prof>
+        <title>string((/cmd:CMD/cmd:Components//cmdp:*[empty(cmdp:*)][normalize-space(text())!=''])[1])</title>
+        <list>
+          <first>
+            <xpath>string((/cmd:CMD/cmd:Components//cmdp:*[empty(cmdp:*)][normalize-space(text())!=''])[1])</xpath>
+            <label>First</label>
+            <sort>true</sort>
+            <filter>true</filter>
+          </first>
+        </list>
+      </bioport-metadata>
+    </prof>
+  </app>
+</config>

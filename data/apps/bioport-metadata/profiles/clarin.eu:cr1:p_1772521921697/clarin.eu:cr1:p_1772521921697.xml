@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ComponentSpec isProfile="true" CMDVersion="1.2" CMDOriginalVersion="1.2" xsi:noNamespaceSchemaLocation="https://infra.clarin.eu/CMDI/1.x/xsd/cmd-component.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Header>
+        <ID>clarin.eu:cr1:p_1772521921697</ID>
+        <Name>BiographyCollection</Name>
+        <Description>biografisch portaal lemma</Description>
+        <Status>production</Status>
+    </Header>
+    <Component name="BiographyCollection" ConceptLink="https://www.cidoc-crm.org/cidoc-crm/E73_Information_Object" CardinalityMin="1" CardinalityMax="1">
+        <Element name="isComposedOf" ConceptLink="https://www.cidoc-crm.org/cidoc-crm/P106_is_composed_of" ValueScheme="anyURI" CardinalityMin="1" CardinalityMax="unbounded" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
+    </Component>
+</ComponentSpec>
